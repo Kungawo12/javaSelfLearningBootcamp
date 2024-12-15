@@ -16,8 +16,9 @@ public class SignUp {
         System.out.println("How old are you?");
         int age = scan.nextInt();
 
-        scan.nextLine();
-        System.out.println("Make a username");  
+        
+        System.out.println("Make a username");
+        scan.nextLine();  
         String userName = scan.nextLine();
 
         System.out.println("What city do you live in?");

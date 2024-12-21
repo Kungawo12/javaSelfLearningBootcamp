@@ -5,9 +5,17 @@ public class WorkSchedule {
 
         int day = 3;   //3rd day of the week...
         boolean holiday = true;
-         
-        // IF - ELSE IF - ELSE HERE!
         
+        // IF - ELSE IF - ELSE HERE!
+        if(holiday){
+            System.out.println("Woohoo, no work");
+        }
+        else if (day == 6 || day == 7) {
+            System.out.println("It's weekend, no work!");
+        }
+        else{
+            System.out.println("Wake up at 7:00 :(");
+        }
         
         }
 

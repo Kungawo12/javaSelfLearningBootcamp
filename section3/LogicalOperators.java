@@ -87,7 +87,7 @@ public class LogicalOperators {
         boolean notCashOrCredit = !(option.equals("cash") || option.equals("credit"));
         // if payment option is NOT cash or credit: System.out.println("Please choose another payment option");
         // otherwise: System.out.println("Sold. Pleasure doing business with you!");
-        if (notCashOrCredit){
+        if (!(option.equals("cash") || option.equals("credit"))){
             System.out.println("Please choose another payment option");
         }
         else{
@@ -100,7 +100,7 @@ public class LogicalOperators {
         boolean notIsVowel = !((letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U'));
         // if letter is NOT a vowel: System.out.println("The letter " + letter + " is a consonant");
         // otherwise: System.out.println("The letter " + letter + " is a vowel");
-        if(notIsVowel){
+        if(!((letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U'))){
             System.out.println("The letter " + letter + " is a consonant");
         }
         else{
@@ -113,7 +113,7 @@ public class LogicalOperators {
 
         // if move is NOT hit or stay: System.out.println("Please choose a valid move");
         // otherwise: System.out.println("You win 10 bucks!");
-        if (notIsHitOrStay){
+        if (!(move.equals("hit") || move.equals("stay"))){
             System.out.println("Please choose a valid move");
         }
         else{

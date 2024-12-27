@@ -2,14 +2,23 @@ public class Detention {
     public static void main(String[] args) {
 
         //what Bart did so far
-        System.out.println("I will not copy and paste code.");
-        System.out.println("I will use Camel Case when writing class names.");
-        System.out.println("I will use lower Camel Case when writing function names.");
-        System.out.println("I will use lower Camel Case when writing variables names.\n");
-
+        bartTask();
+        bartTask();
+        bartTask();
+        bartTask();
+        bartTask();
+        bartTask();
+        
         // Task 2 – call the function 6 times. 
-   }
+        
+  }
+  public static void bartTask(){
+    System.out.println("I will not copy and paste code.");
+    System.out.println("I will use Camel Case when writing class names.");
+    System.out.println("I will use lower Camel Case when writing function names.");
+    System.out.println("I will use lower Camel Case when writing variables names.\n");
 
+  }
 
 
     //Task 1 - Make a function here. See the doc comment for details. 

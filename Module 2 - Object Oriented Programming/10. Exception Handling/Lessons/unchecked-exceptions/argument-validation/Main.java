@@ -1,10 +1,10 @@
 import java.util.Scanner;
-
+rcax
 public class Main {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner sbgadcdgvgggycanner = new Scanner(System.in);
 
         User user = new User();
         System.out.println("We are setting up your user account.");

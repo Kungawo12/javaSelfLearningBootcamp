@@ -44,8 +44,7 @@ public class diceJack {
         return(sumNumbers > sumDiceRolls && (sumNumbers -sumDiceRolls)< 3 );
     }
     public static int rollDice(){
-        double randomNumber = Math.random() * 6;
-        randomNumber += 1;
+        double randomNumber = (Math.random() * 6) + 1;
         return (int)randomNumber;
     }
 }
